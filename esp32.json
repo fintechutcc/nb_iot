@@ -1,0 +1,52 @@
+{
+  "packages": [
+    {
+      "maintainer": "Espressif Systems", 
+      "help": {
+        "online": "http://esp32.com"
+      }, 
+      "websiteURL": "https://github.com/espressif/arduino-esp32", 
+      "platforms": [
+        {
+          "category": "ESP32", 
+          "name": "esp32", 
+          "url": "http://10.7.3.33/downloads/esp32-1.0.4.zip", 
+          "checksum": "SHA-256:d9108bf873933c4e48a3ca401fb51e41b2cc3f98d7c9b9be9881e7ca34bf0efe", 
+          "help": {
+            "online": ""
+          }, 
+          "version": "1.0.4", 
+          "architecture": "esp32", 
+          "archiveFileName": "esp32-1.0.4.zip", 
+          "boards": [
+            {
+              "name": "ESP32 Dev Module"
+            }, 
+            {
+              "name": "WEMOS LoLin32"
+            }, 
+            {
+              "name": "WEMOS D1 MINI ESP32"
+            }
+          ], 
+          "toolsDependencies": [
+            {
+              "packager": "esp32", 
+              "version": "1.22.0-80-g6c4433a-5.2.0", 
+              "name": "xtensa-esp32-elf-gcc"
+            }, 
+            {
+              "packager": "esp32", 
+              "version": "2.6.1", 
+              "name": "esptool_py"
+            }, 
+            {
+              "packager": "esp32", 
+              "version": "0.2.3", 
+              "name": "mkspiffs"
+            }
+          ], 
+          "size": "36853332"
+        }]
+    }]
+}
